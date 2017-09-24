@@ -12,7 +12,7 @@ class Game {
             console.log("You win!");
         } else {
             console.log("Current board:");
-            printBoard();
+            this._board.printBoard();
         }
     }
 }
